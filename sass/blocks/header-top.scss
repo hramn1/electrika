@@ -1,0 +1,46 @@
+.header-top {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	border-bottom: 1px solid #e3e3e3;
+	&__logo{
+		padding-top: 5px;
+		margin-bottom: 7px;
+	}
+	&__button{
+		margin-top: 30px;
+	}
+	&__phone{
+		margin-top: 30px;
+	  p {
+	  	font-size: 18px;
+	  	font-weight: 700;
+	  	letter-spacing: 0.72px;
+	  }
+	  span{
+	  	font-size: 14px;
+	  	font-weight: 100;
+	  	color: #989898;
+	  }
+	}
+	&__adress{
+		margin-top: 30px;
+		p{
+	  	font-size: 14px;
+	  	font-weight: 100;
+	  	color: #989898;
+	  	line-height: 200%;
+		}
+	}
+}
+.btn--zayavka{
+	width: 200px;
+	height: 45px;
+	background-color: #fb1b1b;
+	border:0;
+	border-radius: 25px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor:pointer;
+}
